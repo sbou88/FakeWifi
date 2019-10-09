@@ -13,7 +13,7 @@ No app is faked by default. Open WifiFaker app to enable/disable hack (master sw
 
 Install
 -------
-Prerequisites: *Xposed Framework.*
+Prerequisites: *Xposed Framework.* or *EdXposed Framework.*
 
 - Build and install from source.  
 - Open Xposed Installer->Modules, tick Fake Wifi  
@@ -34,8 +34,9 @@ Also check Xposed logs:
 Credits
 -------
 
+- chylek for source
 - rovo89 for awesome Xposed Framework
 - lemonsqueeze for [the original version of this app](https://github.com/lemonsqueeze/FakeWifiConnection/)
 - apsun for [Remote preferences](https://github.com/apsun/RemotePreferences)
 
-Released under [GNU GPL License](https://raw.github.com/chylek/FakeWifi/master/LICENSE).
+Released under [GNU GPL License](https://raw.github.com/sbou88/WifiFaker/master/LICENSE).

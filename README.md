@@ -1,7 +1,5 @@
-FakeWifi
+WifiFaker
 ==================
-**This app is no longer maintained, as I have no use for it and no way to test it. Pull requests are still welcomed, altough nobody really cared to make them yet.**
-
 Make android apps believe Wifi is connected.
 
 Handy in situations where there is a (non wifi) connection, but some app won't do its thing unless it's on wifi
@@ -9,15 +7,15 @@ Handy in situations where there is a (non wifi) connection, but some app won't d
 
 With this you can for instance access wifi-only features while on 3g/Ethernet, etc.
 
-Tested on Android 4 (KitKat) and 6 (Marshmallow).
+Tested on Android 9.
 
-No app is faked by default. Open FakeWifiConnection app to enable/disable hack (master switch) and select which apps to fake.
+No app is faked by default. Open WifiFaker app to enable/disable hack (master switch) and select which apps to fake.
 
 Install
 -------
 Prerequisites: *Xposed Framework.*
 
-- Install [Fake Wifi from Google Play](https://play.google.com/store/apps/details?id=eu.chylek.adam.fakewifi) or build and install from source.  
+- Build and install from source.  
 - Open Xposed Installer->Modules, tick Fake Wifi  
 - Reboot
 - Open Fake Wifi app to change settings.
@@ -39,9 +37,5 @@ Credits
 - rovo89 for awesome Xposed Framework
 - lemonsqueeze for [the original version of this app](https://github.com/lemonsqueeze/FakeWifiConnection/)
 - apsun for [Remote preferences](https://github.com/apsun/RemotePreferences)
-
-Like the app?
--------
-Spread the word on the interwebs, tell your friends or donate to bitcoin wallet: 16AhXUfdozHEmnmWuDyHXVr4peXdj21irg
 
 Released under [GNU GPL License](https://raw.github.com/chylek/FakeWifi/master/LICENSE).
